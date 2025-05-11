@@ -1,6 +1,7 @@
 # SpringIdentity
 Spring Identity, ASP.NET Core Identity sisteminden ilham alınarak geliştirilmiş, **Java Spring Boot tabanlı** güçlü ve esnek bir kimlik yönetimi kütüphanesidir. Kullanıcı, rol, parola, e-posta onayı, hesap kilitleme ve diğer birçok özelliği kolayca yönetebilmenizi sağlar.
 #### Master Branchine geçerek kodlara göz atabilirsiniz 
+#### https://github.com/serkancan006/SpringIdentity/tree/master
 ---
 
 ## 🚀 Özellikler
