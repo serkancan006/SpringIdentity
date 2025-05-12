@@ -28,6 +28,10 @@ public abstract class IdentityUser<PK> {
     private boolean emailConfirmed;
     @Column
     private boolean enabled;
+    @Column(nullable = false)
+    private boolean lockoutEnabled;              // Lockout mekanizması aktif mi?
+    @Column(nullable = false)
+    private int failedLoginAttempts = 0;         // Başarısız giriş denemesi sayısı
 
 
     @ManyToMany

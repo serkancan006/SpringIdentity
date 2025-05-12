@@ -9,6 +9,6 @@ public class AppUserService {
     private final UserManager<AppUser> userManager;
 
     public void createUser(AppUser appUser){
-        userManager.saveUser(appUser);
+        userManager.createUser(appUser);
     }
 }

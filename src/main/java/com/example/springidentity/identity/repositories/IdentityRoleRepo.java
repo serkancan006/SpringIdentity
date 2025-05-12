@@ -1,7 +1,6 @@
 package com.example.springidentity.identity.repositories;
 
 import com.example.springidentity.identity.entities.IdentityRole;
-import com.example.springidentity.identity.entities.IdentityUser;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
@@ -18,4 +17,5 @@ public interface IdentityRoleRepo<Table extends IdentityRole<PK>, PK > extends J
 
     // Rol ismi ve kullanıcının username'ine göre kullanıcıyı bulma
     Optional<Table> findUserByUsernameAndRoleName(String username, String roleName);
+
 }
