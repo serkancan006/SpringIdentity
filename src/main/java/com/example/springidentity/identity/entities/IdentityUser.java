@@ -13,7 +13,6 @@ import java.util.Set;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-@Builder
 public abstract class IdentityUser<PK> {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)

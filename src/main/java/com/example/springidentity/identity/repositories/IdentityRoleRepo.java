@@ -15,7 +15,4 @@ public interface IdentityRoleRepo<Table extends IdentityRole<PK>, PK > extends J
     // Belirli bir rol adına sahip kullanıcıları bulma
     List<Table> findUsersByRoleName(String roleName);
 
-    // Rol ismi ve kullanıcının username'ine göre kullanıcıyı bulma
-    Optional<Table> findUserByUsernameAndRoleName(String username, String roleName);
-
 }
